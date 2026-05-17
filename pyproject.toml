@@ -1,0 +1,14 @@
+[project]
+name = "mastery"
+version = "0.1.0"
+description = "10,000 Hour Mastery Tracker"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = ["rich>=15.0.0", "typer>=0.25.1"]
+
+[project.scripts]
+mastery = "mastery.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
