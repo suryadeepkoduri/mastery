@@ -1,10 +1,39 @@
 [project]
 name = "mastery"
-version = "0.1.0"
-description = "10,000 Hour Mastery Tracker"
+version = "0.1.1"
+description = "A terminal tracker for your 10,000-hour journey to CS mastery (or any field, really)"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = ["rich>=15.0.0", "typer>=0.25.1"]
+requires-python = ">=3.12"
+dependencies = ["rich>=14.0.0", "typer>=0.12.1"]
+authors = [{ name = "Surya Deep Koduri", email = "suryadeepkoduri@gmail.com" }]
+keywords = [
+    "cli",
+    "productivity",
+    "time-tracking",
+    "terminal-app",
+    "self-improvement",
+    "10,000-hours",
+    "tracker",
+    "learning",
+    "mastery",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/suryadeepkoduri/mastery"
+Repository = "https://github.com/suryadeepkoduri/mastery"
+Issues = "https://github.com/suryadeepkoduri/mastery/issues"
 
 [project.scripts]
 mastery = "mastery.__main__:main"
